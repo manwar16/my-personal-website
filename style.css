@@ -1,0 +1,113 @@
+body{
+    font-family:'Poppins',sans-serif;
+    margin: 0px;
+    
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 50px;
+    
+}
+.name-highlight{
+    color: orange;
+}
+section{
+    height: 1000px;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e67fbe, #e22d2d);
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: whitesmoke;
+    font-weight: 700;
+
+    
+}
+.top-part{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.biography{
+
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+#latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#latest-work-area .container{
+    height: 500px;
+}
+#latest-work-area h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#latest-work-area .single-work{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+#latest-work-area .single-work:last-child{
+    margin-right: 0;
+}
+#latest-work-area img{
+    width: 100%;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 5px;
+
+}
+#latest-work-area img:hover{
+    box-shadow: 10px 10px 30px gray;
+    transition: .5s ease;
+}
+#client-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#client-area .container{
+    text-align: center;
+    height: 600px;
+}
+#client-area p{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#client-area p small{
+    color: #707070;
+}
+#client-area h4{
+    margin: 50px 0 0 0;
+}
+#client-area a{
+    display: inline-block;
+    text-transform: none;
+    padding: 30px 100px ;
+    margin-top: 40px;
+}
+#client-area a h3{
+    margin: 5px;
+}
+#client-area a h5{
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    color: #707070;
+}
